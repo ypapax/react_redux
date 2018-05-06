@@ -4,6 +4,7 @@ import { connect } from "react-redux"
 import { fetchUser } from "../actions/userActions"
 import { fetchTweets } from "../actions/tweetsActions"
 
+// https://youtu.be/nrg7zhgJd4w?t=393
 @connect((store) => {
   return {
     user: store.user.user,
